@@ -42,3 +42,9 @@ let team = [
 for(let key in team){
     console.log(team[key]);
 }
+
+
+// 3 - Creo ciclo for in per stampare nel dom tutti i dati
+for (let key in team){
+    document.getElementById('team_list').innerHTML = JSON.stringify(team);
+}
