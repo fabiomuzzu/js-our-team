@@ -16,3 +16,7 @@ BONUS 2: Organizzare i singoli membri in card/schede
 
 Consigli del giorno: Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in codice. E ricordiamoci che console.log() è nostro amico!
 Buon lavoro!
+
+Svolgimento:
+1 - Creiamo l'array di oggetti
+2 - Creiamo ciclo for per stampare in console ogni membro del team con le informazioni
