@@ -4,37 +4,37 @@ let team = [
     {
         name: "Wayne Barnett",
         ruolo: "Founder & CEO",
-        image: "wayne-barnett-founder-ceo.jpg",
+        image: '<img src="./img/wayne-barnett-founder-ceo.jpg" alt="">',
     },
 
     {
         name: "Angela Caroll",
         ruolo: "Chief Editor",
-        image: "angela-caroll-chief-editor.jpg",
+        image: '<img src="./img/angela-caroll-chief-editor.jpg" alt="">',
     },
 
     {
         name: "Walter Gordon",
         ruolo: "Office Manager",
-        image: "walter-gordon-office-manager.jpg",
+        image: '<img src="./img/walter-gordon-office-manager.jpg" alt="">',
     },
 
     {
         name: "Angela Lopez",
         ruolo: "Social Media Manager",
-        image: "angela-lopez-social-media-manager.jpg",
+        image: '<img src="./img/angela-lopez-social-media-manager.jpg" alt="">',
     },
 
     {
         name: "Scott Estrada",
         ruolo: "Developer",
-        image: "scott-estrada-developer.jpg",
+        image: '<img src="./img/scott-estrada-developer.jpg" alt="">',
     },
 
     {
         name: "Barbara Ramos",
         ruolo: "Graphic Designer",
-        image: "barbara-ramos-graphic-designer.jpg",
+        image: '<img src="./img/barbara-ramos-graphic-designer.jpg" alt="">',
     },
 ];
 
@@ -43,8 +43,12 @@ for(let key in team){
     console.log(team[key]);
 }
 
-
+console.log('________________')
 // 3 - Creo ciclo for in per stampare nel dom tutti i dati
-for (let key in team){
-    document.getElementById('team_list').innerHTML = JSON.stringify(team);
+for (let i=0; i<team.length; i++){
+    let teamInfo = team[i];
+    console.log(teamInfo);
+
+    let team_list = document.getElementById('team_list');
+
 }

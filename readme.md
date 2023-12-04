@@ -20,3 +20,4 @@ Buon lavoro!
 Svolgimento:
 1 - Creiamo l'array di oggetti
 2 - Creiamo ciclo for per stampare in console ogni membro del team con le informazioni
+3 - Creo ciclo for in per stampare nel dom tutti i dati
