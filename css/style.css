@@ -9,8 +9,9 @@ img{
 }
 
 .my_margin{
-    
+    margin: 20px 10px;
 }
+
 .bg_gray{
     background-color: lightgray;
 }

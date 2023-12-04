@@ -51,7 +51,7 @@ for (let i=0; i<team.length; i++){
 
     let team_list = document.getElementById('team_list');
     let my_container = document.createElement('div');
-    my_container.classList.add('col-4', 'card',)
+    my_container.classList.add('col-3', 'card', 'my_margin')
 
     my_container.innerHTML = `${teamInfo.image} <h4>${teamInfo.name}</h4> <h6>${teamInfo.ruolo}`;
     team_list.appendChild(my_container);
