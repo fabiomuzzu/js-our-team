@@ -50,6 +50,9 @@ for (let i=0; i<team.length; i++){
     console.log(teamInfo);
 
     let team_list = document.getElementById('team_list');
+    let my_container = document.createElement('div');
+    my_container.classList.add('col-4',)
 
-    team_list.innerHTML = `${teamInfo.image}`
+    my_container.innerHTML = `${teamInfo.image}`;
+    team_list.appendChild(my_container);
 }
