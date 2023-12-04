@@ -51,4 +51,5 @@ for (let i=0; i<team.length; i++){
 
     let team_list = document.getElementById('team_list');
 
+    team_list.innerHTML = `${teamInfo.image}`
 }
