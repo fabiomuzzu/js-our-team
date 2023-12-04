@@ -43,16 +43,21 @@ for(let key in team){
     console.log(team[key]);
 }
 
-console.log('________________')
 // 3 - Creo ciclo for in per stampare nel dom tutti i dati
 for (let i=0; i<team.length; i++){
+    // recupero chiavi e valori
     let teamInfo = team[i];
-    console.log(teamInfo);
 
+    // recupero id dall'html
     let team_list = document.getElementById('team_list');
+    // aggiungo div dove inserire classi
     let my_container = document.createElement('div');
-    my_container.classList.add('col-3', 'card', 'my_margin')
-
-    my_container.innerHTML = `${teamInfo.image} <h4>${teamInfo.name}</h4> <h6>${teamInfo.ruolo}`;
+    // collego il div nell'html
     team_list.appendChild(my_container);
+    // inserisco le classi che mi servono
+    my_container.classList.add('col-3', 'card', 'my_margin')
+    
+
+    // aggiungo le info dell'array nel div appena creato nell'html
+    my_container.innerHTML = `${teamInfo.image} <h4>${teamInfo.name}</h4> <h6>${teamInfo.ruolo}`;
 }
